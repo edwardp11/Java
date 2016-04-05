@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+  <head>
+    <meta  content="text/html; charset=UTF-8"  http-equiv="content-type">
+    <!-- Title appears on browser tab-->
+    <title>Forms Testing</title>
+    <link  rel="stylesheet"  href="styles.css">
+    <link  rel="alternate stylesheet"  type="text/css"  href="resource://gre-resources/plaintext.css"
+       title="Wrap Long Lines">
+
+     
+  </head>
+  <body> 
+   <form action="action_page.php" method="post" target="_blank" accept-charset="UTF-8"
+        enctype="application/x-www-form-urlencoded" autocomplete="on" novalidate>
+   	<fieldset>
+     <legend> Leave a Comment</legend>
+     <input type="text"  name="name" placeholder="Name" autofocus>
+     <br>
+     <input type="email" name="email" placeholder="Email">
+     <br>
+     <label>Background: <input type="checkbox" name="background">Student</label>
+     <label><input type="checkbox" name="background">Teacher</label>
+     <label><input type="checkbox" name="background">Prospective Client</label>
+     <label><input type="checkbox" name="background">Current Client</label>
+     <label><input type="checkbox" name="background">Other</label>
+     <br>
+     <input list="Reason" name"Reason" placeholder="Reason for contact">
+     <datalist id="Reason">
+     	<option> General</option>
+     	<option> Educational</option>
+     	<option> Help</option>
+     </datalist>       
+     <br>
+     Upload an image <input type="file" name="fileImage" >
+     <br>
+     <input type="text" name="comment" placeholder="Comment" size="80">
+     <br>
+     <button class="btn" type="submit" name="submit"> Submit </button>
+    
+ 
+
+<!--
+   Radio Button Test
+   <br>
+   <label><input type="radio" name="question" value="Choice A" /> Choice A</label>
+   <br>
+   <label><input type="radio" name="question" value="Choice B" /> Choice B</label>
+  -->
+   </fieldset>
+</form>
+
+
+  </body>
+</html>

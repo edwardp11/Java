@@ -1,0 +1,31 @@
+﻿
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  content="text/html; charset=UTF-8"  http-equiv="content-type">
+    <title>Scripting</title>
+    <link  rel="alternate stylesheet"  type="text/css"  href="resource://gre-resources/plaintext.css"
+       title="Wrap Long Lines">
+    <script>
+function clickControl (){
+    		if (typeof(Storage) !=="undefined") {
+    			if (localStorage.clickcount {
+    				localstorage.clickcount=Number(localStorage.clickCount) + 1;
+    			}
+    			else {
+    				localStorage.clickCount + 1;
+    			}
+    		document.getElementById("result").innerHTML = "Button clicked " + localStorage.clickCount + "times";
+    		} else {
+    			documentElementById(result").innerHTML = "Not supported
+    		}
+    	} 
+</script>
+<body>
+
+<p>  Button Click Testing </p>
+    <p><button onclick = "clickCount()" type="button">Click Here</button></p>
+    <div id="result"</div>
+</body
+
+</html>

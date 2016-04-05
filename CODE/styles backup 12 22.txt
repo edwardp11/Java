@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <meta  content="text/html; charset=windows-1252"  http-equiv="content-type">
+    <link  rel="alternate stylesheet"  type="text/css"  href="resource://gre-resources/plaintext.css"
+       title="Wrap Long Lines">
+  </head>
+  <body>
+    <pre>
+  body   {
+     background-color:lightgrey;
+}
+#header {
+     background-color: black;
+     color: yellow;
+     padding: 5px;
+}
+
+#nav {
+     background-color: black;
+     color: green;
+     line-height:30px;
+     height: 500px;
+     width: 500px;
+     float:left;
+     padding:5px;
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+.heading {
+     color: red;
+      }
+ul#list {
+     padding: 0;
+}
+
+ul#list li {
+     display: inline;
+}
+
+ul#list li {
+    background-color: black;color: white;padding: 10px 20px;text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#list li:hover {
+    background-color: green;
+}
+
+table {width:100%;}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+
+table#edTable tr:nth-child(even) {
+     background-color: yellow;
+}
+
+table#edTable tr:nth-child(odd) {
+     background-color: #fff;
+}
+
+table#edTable th {
+       background-color: black;
+       color: white;
+}
+
+th, td {
+    padding: 5px;
+}
+
+
+h1 {
+      color: blue;
+      font-family: bioni;
+      font-size: 300%;
+}
+
+h2  {
+     color: red;
+
+}
+h3  {
+     color: red;
+     font-size: 300%;
+}
+
+p  {
+     border:1px solid black;
+     padding: 10px;
+     margin: 30px;
+}
+
+p#p01 {
+    background-color:black;
+    color:white
+}
+p.classtest {
+  color: white;
+}
+
+a:link    {color:blue; background-color:transparent; text-decoration:none}
+a:visited {color:red; background-color:transparent; text-decoration:none}
+a:hover   {color:white; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}</pre></body></html></pre></body></html>

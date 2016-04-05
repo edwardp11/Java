@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+  <head>
+    <meta  content="text/html; charset=UTF-8"  http-equiv="content-type">
+    <!-- Title appears on browser tab-->
+    <title>Testing of HTML</title>
+    <link  rel="stylesheet"  href="styles.css">
+    <link  href="http://fonts.googleapis.com/css?family=Lobster"  rel="stylesheet"
+
+       type="text/css">
+  </head>
+  <body> <!--Header-->
+    <div  id="header">Ed's Testing Environment <img  src="images/programming.gif"
+
+         alt="Computer man"  style="float:left; width:48px;height:48px; border:0;">
+      <img  src="images/html5.gif"  alt="HTML5icon"  style="width:50px; height:50px; border:0;">
+      <img  src="http://www.w3schools.com/images/w3schools_green.jpg"  alt="W3Schools.com"
+
+         style="width:50px; height:50px; border:0;"> </div>
+    <!--Navigation Bar-->
+    <div  id="nav"> <a  href="#education">Education/Training</a> <br>
+      <a  href="#skills">Skills</a> <br>
+      <a  href="#links">Links</a> <br>
+    </div>
+    <!--content-->
+    <div  id="section">
+      <pre  class="openning"> This will have openning test. I will writer things here.
+            tons of text will go here. Not that much but some. Blah blah blah
+            This will have openning test. I will writer things here.
+            tons of text will go here. Not that much but some. Blah blah blah</pre>
+      <!--using ID attribute to make this one different-->
+      <p  id="p01">This is a <mark>marked</mark> sentence and has own
+        background</p>
+      <p>Using the kbd element like hitting enter is <kbd>enter</kbd></p>
+      <h3  class="heading"  id="education">Education and Training</h3>
+      <table  id="edTable">
+        <caption>Education and Training</caption>
+        <tbody>
+          <tr>
+            <th>School</th>
+            <th>Program</th>
+            <th>Courses</th>
+          </tr>
+          <tr>
+            <td>University of Phoenix</td>
+            <td>Advanced Software Developer</td>
+            <td>HTML5, JAVA, Jscript, .Net</td>
+          </tr>
+          <tr>
+            <td>Georgian Court University</td>
+            <td>Psychology</td>
+            <td>Motivational Interviewing, Non-Verbal Communication, Education,
+              Interface</td>
+          </tr>
+          <tr>
+            <td>Brick Computer Science</td>
+            <td>Programming/Networking</td>
+            <td>C++, Visual Basic, Windows Server, Access</td>
+          </tr>
+          <tr>
+            <td>Ocean County College</td>
+            <td>Associates (engineering program)</td>
+            <td>Circuits, Fortran, Physics, Mathematics</td>
+          </tr>
+          <tr>
+            <td>Free Code Camp</td>
+            <td>Educational Project</td>
+            <td>HTML5, Java, Jscript, Bootstrap</td>
+          </tr>
+          <!-- <a> tag is for links. Link is specified in the href-->
+        </tbody>
+      </table>
+      <h3  class="heading"  id="skills">Skills</h3>
+      <ul  id="list">
+        <li>HTML5</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>Web Development</li>
+        <li>MySQL</li>
+      </ul>
+      <h3  class="heading"  ;=""  id="links">Useful Links</h3>
+      <a  href="http://www.w3schools.com/html/html_basic.asp"  target="_blank"  ;="">
+        <img  src="images/w3schools.png"  style="width:100px;height:42px;border:0;">
+      </a> <a  href="http://www.freecodecamp.com/"  target="_blank"  ;=""> <img
+
+           src="images/FreeCodeCamp.png"  style="width:100px;height:42;border:0">
+      </a> 
+      <a  href="https://github.com/FreeCodeCamp/FreeCodeCamp"  target="_blank"
+
+         ;=""> <img  src="images/github.png"  style="width:100px;height:42;border:0">
+      </a> 
+      <a  href="FormattingText.html"  target="_blank"  ;="">Format Testing</a>
+      <a  href="iframetest.html"  target="_blank"  ;="">IFRAME</a> 
+      <a  href="formTesting.html" target="_blank"  ;="">FormTesting</a>
+    </div>
+    <!--footer-->
+    <div  id="footer">Created by Ed Perea</div>
+  </body>
+</html>

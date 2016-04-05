@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <meta  content="text/html; charset=windows-1252"  http-equiv="content-type">
+    <link  rel="alternate stylesheet"  type="text/css"  href="resource://gre-resources/plaintext.css"
+       title="Wrap Long Lines">
+  </head>
+  <body>
+    
+  body   {
+     background-color:light grey;
+}
+#header {
+     background-color: black;
+     color: yellow;
+     text-align: center;
+     padding: 5px;
+     font-size: 60px;
+     font-family: lucidia console;
+}
+
+#nav {
+     background-color: black;
+     color: green;
+     line-height:30px;
+     height: 1150px;
+     width: 150px;
+     float:left;
+     padding:5px;
+}
+#section {
+    width:500px;
+    float:left;
+    padding:10px;
+    background-color: light grey;	 	 
+}
+
+#article {
+    width:500px;
+    float:left;
+    padding:10px;
+    background-color:light grey;	 	 
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:10px; 
+}
+.heading {
+     color: red;
+      }
+
+
+.box {
+
+     border-style: solid;
+     border-color:blue;
+     border-width:5px;
+     text-align: center;
+     padding:5px 10px 5px 10px;
+}
+ul#list {
+     padding: 0;
+}
+
+ul#list li {
+     display: inline;
+}
+
+ul#list li {
+    background-color: black;color: white;padding: 10px 20px;text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#list li:hover {
+    background-color: green;
+
+}
+<!--
+ul#headerlist li{
+     padding: 5;
+} -->
+
+ul#headerlist li {
+     display: inline;
+}
+
+ul#headerlist li {
+    background-color: black;color: white;padding: 10px 10px;text-decoration: none;
+    border-radius: 4px 4px 0 0;margin: 1px;
+}
+
+ul#headerlist li:hover {
+    background-color: green;
+}
+
+table {width:100%;}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+
+table#edTable tr:nth-child(even) {
+     background-color: yellow;
+}
+
+table#edTable tr:nth-child(odd) {
+     background-color: #fff;
+}
+
+table#edTable th {
+       background-color: black;
+       color: white;
+}
+
+th, td {
+    padding: 5px;
+}
+
+
+h1 {
+      color: blue;
+      font-family: bioni;
+      font-size: 300%;
+}
+
+h2  {
+     color: red;
+
+}
+h3  {
+     color: red;
+     font-size: 300%;
+}
+
+p  {
+     border:1px solid black;
+     padding: 10px;
+     margin: 30px;
+}
+
+p#p01 {
+    background-color:black;
+    color:white
+}
+p.openning {
+  color: black;
+}
+a:visited {color:blue; background-color:transparent; text-decoration:none}
+a:link    {color:blue; background-color:transparent; text-decoration:none}
+a:hover   {color:white; background-color:transparent; text-decoration:none}
+a:active  {color:yellow; background-color:transparent; text-decoration:none}</pre></body></html></pre></body></html>

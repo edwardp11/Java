@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  content="text/html; charset=UTF-8"  http-equiv="content-type">
+    <title>formattingtest</title>
+    <style>
+      div.text {
+         background-color:black;
+         color:yellow;
+         padding:25px;
+      }
+      .redText {
+        color: red;
+        background-color: yellow;
+        font-family: arial black;
+      }
+    </style>
+  </head>
+  <body  style="       height: 19px;">
+    <h1> Here is where I <span  class="redText">test</span> certain concepts</h1>
+    <div  class="text">
+      <p> Ipsum text jdfhgkjafvhefhgbqkfbkjdsbcj ljsfkjhadskjlffh
+        fjhgiuerwgfkjern kjhwghuierw</p>
+    </div>
+    
+  </body>
+</html>
